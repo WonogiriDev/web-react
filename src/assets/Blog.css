@@ -1,0 +1,14 @@
+.box {
+  text-decoration: none;
+}
+
+.list {
+  box-shadow: 1px 1px 10px 1px #8888;
+  padding: 15px;
+  margin: 20px;
+}
+
+.list p.author {
+  font-size: 0.9em;
+  color: #333;
+}
