@@ -24,4 +24,10 @@ const App = () => (
   </div>
 )
 
+// const PrivateRoute = () => (
+//   <Switch>
+//     <Route />
+//   </Switch>
+// )
+
 export default App

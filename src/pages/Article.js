@@ -1,8 +1,8 @@
 import React from 'react'
 import '../assets/Article.css'
+import PropTypes from 'prop-types'
 
 class Article extends React.Component {
-
   render() {
     const { title, author, content, pubDate } = this.props.location.state.item
     return (
@@ -19,6 +19,10 @@ class Article extends React.Component {
       </div>
     )
   }
+}
+
+Article.PropTypes = {
+  item: PropTypes.object,
 }
 
 export default Article
