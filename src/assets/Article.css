@@ -18,3 +18,7 @@ pre {
   font-size: 16px;
   background: rgb(206, 206, 206);
 }
+
+figure img {
+  max-width: 100%;
+}
