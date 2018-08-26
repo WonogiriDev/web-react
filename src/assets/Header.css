@@ -1,0 +1,14 @@
+div.header {
+  text-align: right;
+  display: block;
+  padding: 20px;
+  background: #ff0000;
+}
+
+div.header a {
+  color: #fff;
+  font-size: 1.3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 20px;
+  text-decoration: none;
+}
